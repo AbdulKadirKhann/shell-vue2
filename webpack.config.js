@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/main.js',
   mode: 'development',
   output: {
-    publicPath: 'https://AbdulKadirKhann.github.io/shell-vue2/shell-vue2/',
+    publicPath: 'https://AbdulKadirKhann.github.io/shell-vue2/',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
@@ -29,9 +29,9 @@ module.exports = {
       name: 'shell_vue2',
       remotes: {
         users_app_vue3:
-          'users_app_vue3@https://AbdulKadirKhann.github.io/users-app-vue3/users-app-vue3/remoteEntry.js',
+          'users_app_vue3@https://AbdulKadirKhann.github.io/users-app-vue3/remoteEntry.js',
         edit_user_app_vue3:
-          'edit_user_app_vue3@https://AbdulKadirKhann.github.io/edit-user-app-vue3/edit-user-app-vue3/remoteEntry.js',
+          'edit_user_app_vue3@https://AbdulKadirKhann.github.io/edit-user-app-vue3/remoteEntry.js',
       },
       shared: {
         vue: {
