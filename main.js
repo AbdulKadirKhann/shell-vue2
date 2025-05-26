@@ -20,16 +20,16 @@ eval("Promise.all(/*! import() */[__webpack_require__.e(\"vendors-node_modules_v
 /***/ }),
 
 /***/ "webpack/container/reference/edit_user_app_vue3":
-/*!****************************************************************************************************************************!*\
-  !*** external "edit_user_app_vue3@https://AbdulKadirKhann.github.io/edit-user-app-vue3/edit-user-app-vue3/remoteEntry.js" ***!
-  \****************************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** external "edit_user_app_vue3@https://AbdulKadirKhann.github.io/edit-user-app-vue3/remoteEntry.js" ***!
+  \*********************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 var __webpack_error__ = new Error();
 module.exports = new Promise((resolve, reject) => {
 	if(typeof edit_user_app_vue3 !== "undefined") return resolve();
-	__webpack_require__.l("https://AbdulKadirKhann.github.io/edit-user-app-vue3/edit-user-app-vue3/remoteEntry.js", (event) => {
+	__webpack_require__.l("https://AbdulKadirKhann.github.io/edit-user-app-vue3/remoteEntry.js", (event) => {
 		if(typeof edit_user_app_vue3 !== "undefined") return resolve();
 		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
 		var realSrc = event && event.target && event.target.src;
@@ -44,16 +44,16 @@ module.exports = new Promise((resolve, reject) => {
 /***/ }),
 
 /***/ "webpack/container/reference/users_app_vue3":
-/*!****************************************************************************************************************!*\
-  !*** external "users_app_vue3@https://AbdulKadirKhann.github.io/users-app-vue3/users-app-vue3/remoteEntry.js" ***!
-  \****************************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** external "users_app_vue3@https://AbdulKadirKhann.github.io/users-app-vue3/remoteEntry.js" ***!
+  \*************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 var __webpack_error__ = new Error();
 module.exports = new Promise((resolve, reject) => {
 	if(typeof users_app_vue3 !== "undefined") return resolve();
-	__webpack_require__.l("https://AbdulKadirKhann.github.io/users-app-vue3/users-app-vue3/remoteEntry.js", (event) => {
+	__webpack_require__.l("https://AbdulKadirKhann.github.io/users-app-vue3/remoteEntry.js", (event) => {
 		if(typeof users_app_vue3 !== "undefined") return resolve();
 		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
 		var realSrc = event && event.target && event.target.src;
@@ -371,7 +371,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://AbdulKadirKhann.github.io/shell-vue2/shell-vue2/";
+/******/ 		__webpack_require__.p = "https://AbdulKadirKhann.github.io/shell-vue2/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/consumes */
