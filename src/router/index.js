@@ -33,9 +33,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'hash',
-  base: '/',
+  mode: 'history',
+  base: '/shell-vue2/',
   routes,
 })
-
 export default router
